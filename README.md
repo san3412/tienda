@@ -1,68 +1,3 @@
-body{
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
-    padding: 0;
-}
-header{
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
-}
-nav ul{
-    list-style-type: none;
-padding: 0;
-}
-nav ul li{
-    display: inline;
-    margin: O 15px;
-}
-nav ul li a{
-    color: #fff;
-    text-decoration: none;
-}
-#banner{
-    background-color: #f2f2f2;
-    padding: 20px;
-    text-align: center;
-}
-#productos {
-    padding: 20px;
-}
-#producto{
-    border: 1px solid #ccc;
-    margin: 10px 0;
-    padding: 10px;
-}
-footer{
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-button{
-    background-color: #333;
-    color: #ccc;
-    text-align: center;
-    padding: 10px;
-}
-.carrito {
-    background-color: #333;
-    color: #ccc;
-    border: 1px solid #ffffff;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px;
-    max-width: 300px;
-    position: fixed;
-    right: 25px;
-    top: 100px;
-    box-shadow: O O 10px rgba(O,O,O,0.1)
-}
-#listaCarrito {
-    list-style: none;
-    padding: O;
-}
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -131,73 +66,58 @@ button{
 </body>
 </html>
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Tienda Online</title>
-    <link rel="stylesheet" href="pagina1.css">
-</head>
-<body>
-    <br>
-    <div><h1>MI TIENDA ONLINE</h1></div>
-    <form><label for="nombre">nombre</label><br>
-    <input type="text" id="nombre" name="nombre" required><br><br>
-<label for="email">correo electronico</label><br>
-<input type="email" id="email" name="email" required><br><br>
-<label for="contrasena">contraseña</label><br>
-<input type="password" name="contrasens" id="contrasena" required><br><br>
-<label for="confirmarcontraseña">confirmar contraseña</label><br>
-<input type="password" id="confirmarcontraseña" name="confirmarcontraseña" required><br><br>
-<input type="submit" value="registrarse">
-</form>
-<br>
-<footer>
-    <p>&copy; 2024 tu tienda online.todos los derechos reservados</p>
-</footer>
-</body>
-</html>
 body{
     font-family: 'Times New Roman', Times, serif;
-    background-color: #f2f2f2;
-    color: #333;
-    text-align: center;
-    font-size: 22px;
-    margin: 20px;
-    border: 1px;
-    
-}
-div{
-    padding: 10px;
-    background-color: #333;
-    color: #f2f2f2;
-    text-align: center;
-    margin: 0px;
-}
-form{
-    background-color: #ccc;
-    margin: 0px;
-}
-form label {
-    text-align: center;
+    margin: 0;
     padding: 0;
-    font-size: 17px;
 }
-input{
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin: O 15px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+#banner{
     background-color: #f2f2f2;
-    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+#productos {
+    padding: 20px;
+}
+#producto{
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
 }
 footer{
-
-    background-color: #fff8f8;
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
 }
+button{
+    background-color: #333;
+    color: #ccc;
+    text-align: center;
+    padding: 10px;
+}
 .carrito {
-    background-color: #4e3d68;
-    border: 1px solid #f8c3ed;
+    background-color: #333;
+    color: #ccc;
+    border: 1px solid #ffffff;
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
